@@ -1,0 +1,687 @@
+@media screen and (max-width: 540px) {
+    .wrapper{
+        max-width: 540px;
+        padding: 0px 24px;
+    }
+
+    /* Head and Navbar Responsive Start  */
+    .head-mask{
+        width: 540px;
+        height: 900px;
+        background-repeat: repeat;
+        background-size: contain;
+    }
+    .navbar .menu{
+        display: none;
+    }
+     .navbar .button{
+        display: none;
+    }
+    .mobile-nav{
+        display: block;
+        font-size: 1.6rem;
+        color: white;
+    }
+    .mobile-nav .nav-icon{
+        border: 1px solid white;
+        width: 48px;
+        height: 48px;
+        border-radius: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    
+
+
+
+    .hero-section .hero-title h1 {
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 6rem;
+        padding-top: 5rem;
+    }
+    .head-image img{
+        padding-top: 3rem;
+        max-width: 540px;
+     }
+     /* Head and Navbar Responsive End  */
+
+     /* Brand Responsive Start  */
+     .brand-section{
+        padding-top: 5rem;
+    }
+    .brand-section span {
+        max-width: 323px;
+        display: inline-block;
+    }
+    .brand-section .brand-image{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+        justify-content: center;
+    }
+    .brand-section img{
+        width: 108px;
+    }
+    /* Brand Responsive End  */
+
+    /* Feature Responsive Start  */
+    .feature-section{
+        display: flex;
+        flex-direction: column;
+        max-width: 492px;
+    }
+    .feature-left .feature-shape {
+        padding-top: 100px;
+        max-width: 100%;
+    }
+    .feature-section .feature-left{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .feature-left .feature-image {
+        position: absolute;
+        bottom: 411px;
+        left: 98px;
+        width: 270px;
+    }
+    .feature-left .feature-rect {
+        position: absolute;
+        bottom: 306px;
+        left: -45px;
+        width: 600px;
+    }  
+    .feature-right .feature-right-content{
+        margin-top: 60px;
+        text-align: center;
+    }  
+    .feature-right button {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 112px;
+        height: 41px;
+        font-weight: 500;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .feature-right h2 {
+        font-weight: 600;
+        font-size: 41px;
+        line-height: 54px;
+        margin-top: 7px;
+        margin-bottom: 14px;
+        max-width: 492px;
+    }
+    /* Feature Responsive End  */
+
+    /* Payment Responsive Start  */
+    .payment-section{
+        display: flex;
+        flex-direction: column-reverse;
+        column-gap: 3.4rem;
+        max-width: 492px;
+        padding-bottom: 10px;
+    }
+    .payment-left{
+        max-width: 435px;
+        text-align: center;
+        padding-top: 90px;
+        margin: 0 auto;
+    }
+    .payment-left h2 {
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 53px;
+        margin-top: 10px;
+        margin-bottom: 18px;
+    }
+    .payment-left span{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: -0.02em;
+        color: #757095;
+        max-width: 512px;
+        display: block;
+    }
+    .payment-left button{
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 112px;
+        height: 41px;
+        font-weight: 500;
+        font-size: 10px;
+        margin-top: 20px;  
+    }
+    .payment-right{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .payment-right .payment-bg{
+        padding-top: 150px;
+        width: 400px;
+    }
+    .payment-right .payment-up {
+        position: absolute;
+        right: 107px;
+        bottom: 56rem;
+        width: 287px;
+    }
+    .payment-right .payment-brand {
+        position: absolute;
+        right: -41px;
+        bottom: 28rem;
+        width: 443px;
+    }
+    /* Payment Responsive End  */
+
+    /* Preferance Responsive Start  */
+    .preferance-wrapper{
+        background-color: var(--primary-color);
+        margin-top: 4rem;
+    }
+    .preferance .preferance-up{
+        max-width: 492px;
+        padding-top: 2rem;
+    }
+    .preferance .preferance-up .preferance-up-text h3 {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 29px;
+        max-width: 329px;
+    }
+    .preferance .preferance-up .preferance-up-btn button {
+        padding: 1.9rem 2.3rem;
+        border-radius: 1rem;
+        font-weight: 600;
+        font-size: 1.2rem;
+        line-height: 1.9rem;
+    }
+    .preferance .preferance-down{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        margin-top: 8.4rem;
+    }
+    .preferance .preferance-down .preferance-down-right .down-bg{
+        max-width: 492px;
+        margin: 0 auto;
+    }
+    .preferance-position-one {
+        position: absolute;
+        top: 176px;
+        right: 28px;
+        width: 500px;
+    }
+    .preferance .preferance-down .preferance-down-left{
+        margin-top: 4rem;
+    }
+    /* Preferance Responsive End  */
+
+    /* quality Responsive Start  */
+    .quality-section{
+        max-width: 492px;
+        margin-top: 5.3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .quality-section .quality-right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 2rem;
+        margin-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    .quality-section .quality-left h2 {
+        font-weight: 500;
+        font-size: 33px;
+        line-height: 44px;
+        letter-spacing: -0.03em;
+        color: var(--black-color);
+    }
+    .quality-section .quality-right .quality-right-first-item{
+        display: flex;
+        max-width: 300px;
+    }
+    .quality-section .quality-right p{
+        font-size: 20px;
+        max-width: 492px;
+    }
+    .quality-section .quality-left{
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 2rem;
+    }
+    /* Quality Responsive End  */
+
+    /* Promise Responsive Start  */
+    .promise-section{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5rem;
+        padding-top: 5rem;
+    }
+    .promise-first-item{
+        max-width: 492px;
+        margin: 0 auto;
+    }
+    .promise-section .promise-first-item .promise-first-item-wrapper button{
+        width: 107px;
+        height: 40px;
+    }
+    /* Promise Responsive Start  */
+
+    /* Recent Responsive Start  */
+    .recent-section .recent-title{
+        padding-bottom: 32px;
+    }
+    .recent-section .recent-up{
+        display: flex;
+        flex-direction: column;
+        max-width: 492px;
+        margin: 0 auto;
+    }
+    .recent-section .recent-up .recent-up-left{
+        max-width: 492px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .recent-section .recent-up .recent-up-left h4{
+        padding-bottom: 2.8rem;
+    }
+    .recent-section .recent-up .recent-up-left{
+       padding-bottom: 3rem;
+    }
+    .recent-up .recent-up-right img{
+        max-width: 492px;
+    }
+    .recent-section .recent-down{
+        margin-top: 2.9rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.8rem;
+        align-items: center;
+    }
+    /* Recent Responsive End  */
+
+    /* Footer Responsive Start  */
+    .footer-section{
+        max-width: 540px;  
+    }
+    .footer-section .footer-up{
+        width: 492px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 4rem;
+        padding-top: 4.2rem;
+        margin-top: 80px;
+    }
+    .footer-section .footer-up h2{
+        font-size: 31px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .footer-section .footer-up button{
+        padding: 1.3rem 1.3rem 1.6rem 2.3rem;
+    }
+    .footer-middle{
+        display: flex;
+        flex-direction: column;
+        padding-top: 41px;
+    }
+    .footer-middle .footer-middle-left h5{
+        padding-bottom: 30px;
+    }
+    .footer-down{
+        padding: 2.7rem 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Footer Responsive End  */
+}    
+
+@media screen and (min-width: 541px) and (max-width: 768px){
+    .wrapper{
+        max-width: 768px;
+        padding: 0px 32px;
+    }
+     /* Head and Navbar Responsive Start  */
+     .head-mask{
+        width: 768px;
+        height: 900px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .navbar .logo h3{
+       width: 120px;
+    }
+    .navbar .menu{
+        width: 400px;
+    }
+    .navbar .menu ul{
+        margin-left: 6rem;
+    }
+    .navbar .menu ul a{
+        margin-right: 2rem;
+    }
+     .navbar .button{
+        width: 248px;
+        margin-left: 0;
+    }
+    .navbar .button .anchor-btn{
+        margin-left: 2rem;
+    }
+    .navbar .button .button-btn button{
+        padding: 1.2rem 1.5rem;
+    }
+    .navbar .button .button-btn{
+        margin-top: 3.8rem;
+    }
+    .hero-section .hero-title h1 {
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 6rem;
+        padding-top: 5rem;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .head-image img{
+        padding-top: 3rem;
+        max-width: 640px;
+     }
+      /* Head and Navbar Responsive End  */
+
+      /* Brand Responsive Start  */
+     .brand-section{
+        padding-top: 11rem;
+    }
+    .brand-section span {
+        max-width: 323px;
+        display: inline-block;
+    }
+    .brand-section .brand-image{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+        justify-content: center;
+    }
+    .brand-section img{
+        width: 130px;
+    }
+    /* Brand Responsive End  */
+
+        
+    /* Feature Section Start */
+    .feature-section{
+        position: relative;
+        display: flex;
+        column-gap: 3.7rem;
+        width: 768px;
+    }
+    .feature-left .feature-shape{
+        padding-top: 121.86px;
+        width: 100%;
+    }
+    .feature-left .feature-image {
+        position: absolute;
+        bottom: 2px;
+        left: 70px;
+        width: 220px;
+    }
+    .feature-left .feature-rect {
+        position: absolute;
+        bottom: -76px;
+        left: -37px;
+        width: 470px;
+    }
+    .feature-right p{
+        font-weight: 600;
+        font-size: 11px;
+    }
+    .feature-right h2 {
+        font-weight: 500;
+        font-size: 31px;
+        line-height: 38px;
+        margin-top: 5px;
+        margin-bottom: 9px;
+    }
+    .feature-right span {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: -0.0em;
+    }
+    .feature-right button {
+        width: 113px;
+        height: 40px;    
+        font-size: 11px;
+    }
+    .feature-right .feature-right-content{
+        margin-top: 119px;
+    }
+    /* Feature Section End */
+
+    
+    /* Payment Section Start  */
+    .payment-section{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 768px;
+        padding-bottom: 108px;
+    }
+    .payment-left{
+        width: 579px;
+        padding-top: 119px;
+    }
+    .payment-left p{
+        font-weight: 600;
+        font-size: 11px;
+    }
+    .payment-left h2{
+        font-weight: 500;
+        font-size: 31px;
+        line-height: 38px;
+        margin-top: 5px;
+        margin-bottom: 9px;
+    }
+    .payment-left span{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 23px;
+        letter-spacing: -0.0em;
+    }
+    .payment-left button{
+        width: 113px;
+        height: 40px;    
+        font-size: 11px;
+    }
+    .payment-right{
+        width: 580px;
+    }
+    .payment-right .payment-bg{
+        padding-top: 202px;
+        width: 35rem;
+    }
+    .payment-right .payment-up {
+        position: absolute;
+        right: 82px;
+        bottom: 24rem;
+        width: 250px;
+    }
+    .payment-right .payment-brand {
+        position: absolute;
+        right: -44px;
+        bottom: -3px;
+        width: 400px;
+    }
+    /* Payment Section End  */
+
+    /* Preferance Section Start  */
+    .preferance-wrapper{
+        background-color: var(--primary-color);
+    }
+    .preferance{
+        width: 768px;
+        padding-top: 2.4rem;
+    }
+    .preferance .preferance-up .preferance-up-text h3 {
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 40px;
+        max-width: 451px;
+    }
+    .preferance .preferance-down{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        margin-top: 8.4rem;
+    }
+    .preferance .preferance-down .preferance-down-right .down-bg{
+        width: 704px;
+        margin: 0 auto;
+    }
+    .preferance-position-one {
+        position: absolute;
+        top: 168px;
+        right: 42px;
+        width: 720px;
+    }
+    .preferance .preferance-down .preferance-down-left{
+        margin-top: 4rem;
+        width: 768px;
+        margin: 0 auto;
+    }
+    .preferance .preferance-down{
+        width: 704px;
+    }
+    /* Preferance Section End  */
+
+    /* quality Responsive Start  */
+    .quality-section{
+        max-width: 492px;
+        margin-top: 5.3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .quality-section .quality-right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 2rem;
+        margin-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    .quality-section .quality-left h2 {
+        font-weight: 500;
+        font-size: 33px;
+        line-height: 44px;
+        letter-spacing: -0.03em;
+        color: var(--black-color);
+    }
+    .quality-section .quality-right .quality-right-first-item{
+        display: flex;
+        max-width: 300px;
+    }
+    .quality-section .quality-right p{
+        font-size: 20px;
+        max-width: 492px;
+    }
+    .quality-section .quality-left{
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 2rem;
+    }
+    /* Quality Responsive End  */
+
+    /* Promise Responsive Start  */
+        .promise-section{
+            display: flex;
+            flex-direction: column;
+            row-gap: 5rem;
+            padding-top: 5rem;
+        }
+        .promise-first-item{
+            max-width: 492px;
+            margin: 0 auto;
+        }
+        .promise-section .promise-first-item .promise-first-item-wrapper button{
+            width: 107px;
+            height: 40px;
+        }
+    /* Promise Responsive Start  */
+    
+    /* Recent Responsive Start  */
+        .recent-section .recent-title{
+            padding-bottom: 32px;
+            text-align: center;
+        }
+        .recent-section .recent-up{
+            display: flex;
+            flex-direction: column;
+            max-width: 492px;
+            margin: 0 auto;
+        }
+        .recent-section .recent-up .recent-up-left{
+            max-width: 492px;
+            margin-left: 0px;
+            text-align: center;
+        }
+        .recent-section .recent-up .recent-up-left h4{
+            padding-bottom: 2.8rem;
+        }
+        .recent-section .recent-up .recent-up-left{
+           padding-bottom: 3rem;
+        }
+        .recent-up .recent-up-right img{
+            max-width: 492px;
+        }
+        .recent-section .recent-down{
+            margin-top: 2.9rem;
+            display: flex;
+            flex-direction: column;
+            row-gap: 2.8rem;
+            align-items: center;
+        }
+    /* Recent Responsive End  */
+
+     /* Footer Responsive Start  */
+    .footer-section{
+        max-width: 768px;  
+    }
+    .footer-section .footer-up{
+        width: 492px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 4rem;
+        padding-top: 4.2rem;
+        margin-top: 80px;
+    }
+    .footer-section .footer-up h2{
+        font-size: 31px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .footer-section .footer-up button{
+        padding: 1.3rem 1.3rem 1.6rem 2.3rem;
+    }
+    .footer-middle{
+        display: flex;
+        flex-direction: column;
+        padding-top: 41px;
+    }
+    .footer-middle .footer-middle-left h5{
+        padding-bottom: 30px;
+    }
+    .footer-down{
+        padding: 2.7rem 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Footer Responsive End  */
+}
